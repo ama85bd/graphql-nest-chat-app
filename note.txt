@@ -1,0 +1,11 @@
+ npm i -g @nestjs/cli
+ nest new project-name
+ npm create vite@latest my-app
+npm install prisma --save-dev
+npx prisma init
+docker-compose up
+npx prisma migrate dev --name init
+npm install @prisma/client
+npx prisma generate
+npx prisma db push 
+npx prisma studio
