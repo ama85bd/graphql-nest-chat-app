@@ -9,8 +9,9 @@ npm install @prisma/client
 npx prisma generate
 npx prisma db push 
 npx prisma studio
-npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql
-npm i @nestjs/jwt bcrypt class-transformer class-validator cookie-parser @nestjs/config
-nest g module auth 
-nest g resolver auth 
-nest g service auth 
+npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql --force
+npm i @nestjs/jwt bcrypt class-transformer class-validator cookie-parser @nestjs/config --force
+nest g module auth/user
+nest g resolver auth/user 
+nest g service auth/user 
+npm i graphql-upload@^14.0.0
