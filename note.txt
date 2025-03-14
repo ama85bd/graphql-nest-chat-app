@@ -1,6 +1,6 @@
  npm i -g @nestjs/cli
  nest new project-name
- npm create vite@latest my-app
+
 npm install prisma --save-dev
 npx prisma init
 docker-compose up
@@ -15,3 +15,9 @@ nest g module auth/user
 nest g resolver auth/user 
 nest g service auth/user 
 npm i graphql-upload@^14.0.0
+
+
+
+###  FE  ####
+npm create vite@latest my-app
+npm install @mantine/core @mantine/hooks @mantine/modals @mantine/dropzone @mantine/form
