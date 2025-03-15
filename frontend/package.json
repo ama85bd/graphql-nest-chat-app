@@ -10,11 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@graphql-codegen/cli": "^5.0.5",
     "@mantine/core": "^7.17.2",
     "@mantine/dropzone": "^7.17.2",
     "@mantine/form": "^7.17.2",
     "@mantine/hooks": "^7.17.2",
     "@mantine/modals": "^7.17.2",
+    "@parcel/watcher": "^2.5.1",
+    "graphql": "^16.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
