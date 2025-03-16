@@ -23,3 +23,4 @@ npm create vite@latest my-app
 npm install @mantine/core @mantine/hooks @mantine/modals @mantine/dropzone @mantine/form
 npm install graphql
 npm install --dev typescript @graphql-codegen/cli @parcel/watcher
+npx graphql-codegen --watch --verbose
