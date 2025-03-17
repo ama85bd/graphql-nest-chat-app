@@ -24,3 +24,4 @@ npm install @mantine/core @mantine/hooks @mantine/modals @mantine/dropzone @mant
 npm install graphql
 npm install --dev typescript @graphql-codegen/cli @parcel/watcher
 npx graphql-codegen --watch --verbose
+npm install @apollo/client graphql
