@@ -25,3 +25,6 @@ npm install graphql
 npm install --dev typescript @graphql-codegen/cli @parcel/watcher
 npx graphql-codegen --watch --verbose
 npm install @apollo/client graphql
+npm i apollo-upload-client
+npm i zustand
+npm i --save-dev @types/apollo-upload-client
