@@ -7,7 +7,7 @@ import {
   ApolloLink,
   split,
 } from '@apollo/client';
-import { createUploadLink } from 'apollo-upload-client';
+import createUploadLink from 'apollo-upload-client/createUploadLink.mjs';
 import { WebSocketLink } from '@apollo/client/link/ws';
 import { onError } from '@apollo/client/link/error';
 import { useUserStore } from './stores/userStore';
