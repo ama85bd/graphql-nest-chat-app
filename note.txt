@@ -31,3 +31,4 @@ npm i apollo-upload-client
 npm i zustand
 npm i --save-dev @types/apollo-upload-client
 npm i subscriptions-transport-ws
+npm i react-router-dom
