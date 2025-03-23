@@ -15,6 +15,8 @@ nest g module auth/user
 nest g resolver auth/user 
 nest g service auth/user 
 npm i graphql-upload@^14.0.0
+npm i graphql-redis-subscriptions ioredis
+
 
 
 
@@ -28,3 +30,4 @@ npm install @apollo/client graphql
 npm i apollo-upload-client
 npm i zustand
 npm i --save-dev @types/apollo-upload-client
+npm i subscriptions-transport-ws
