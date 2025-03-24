@@ -16,13 +16,18 @@ nest g resolver auth/user
 nest g service auth/user 
 npm i graphql-upload@^14.0.0
 npm i graphql-redis-subscriptions ioredis
+npm install apollo-server-express
+npm install @nestjs/serve-static --legacy-peer-deps
+
+
 
 
 
 
 ###  FE  ####
 npm create vite@latest my-app
-npm install @mantine/core @mantine/hooks @mantine/modals @mantine/dropzone @mantine/form
+npm install @mantine/core@^6.0.0 @mantine/hooks@^6.0.0 @mantine/form@^6.0.0 @mantine/dropzone@^6.0.0 @mantine/modals@^6.0.0 @emotion/react@^11.9.0
+
 npm install graphql
 npm install --dev typescript @graphql-codegen/cli @parcel/watcher
 npx graphql-codegen --watch --verbose
@@ -32,3 +37,4 @@ npm i zustand
 npm i --save-dev @types/apollo-upload-client
 npm i subscriptions-transport-ws
 npm i react-router-dom
+npm install @tabler/icons-react

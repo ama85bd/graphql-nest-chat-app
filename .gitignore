@@ -3,5 +3,6 @@
 */build/
 */.next/
 */uploads/
+backend/public/
 # .env
 node_modules

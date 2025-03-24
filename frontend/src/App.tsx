@@ -1,5 +1,5 @@
 import './App.css';
-import '@mantine/core/styles.css';
+// import '@mantine/core/styles.css';
 import { MantineProvider, Card, Text } from '@mantine/core';
 
 function App() {
